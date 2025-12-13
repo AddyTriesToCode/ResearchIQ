@@ -1,0 +1,29 @@
+#Python
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment / secrets
+.env
+
+# Data and generated artifacts
+uploads/
+vectordb/
+*.sqlite3
+
+# Node / frontend
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
